@@ -1,0 +1,49 @@
+.header {
+
+  /*  margin: 0 2.5rem;
+    padding: .5rem 0;*/
+    align-items: center;
+   
+    justify-content:space-between;
+}
+input {
+    width: 20rem;
+    border-radius: 100px;
+    border: none;
+    border: 1px solid var(--border-clr);
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-color: black; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+      rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    outline: none;   
+  }
+
+.headerLeft, .headerRight {
+   
+    align-items: center;
+    
+}
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: black;
+}
+
+a > span:hover {
+    color: blue;
+}
+
+.header__icon {
+    margin-left: 1rem;
+    margin-right: 2rem;
+    width: 130px;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
+
