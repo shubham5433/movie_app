@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/movie_app/static/css/main.18a524e2.css",
+    "main.js": "/movie_app/static/js/main.fc954745.js",
+    "static/media/logo3.png": "/movie_app/static/media/logo3.c4343629553b24b08728.png",
+    "index.html": "/movie_app/index.html",
+    "main.18a524e2.css.map": "/movie_app/static/css/main.18a524e2.css.map",
+    "main.fc954745.js.map": "/movie_app/static/js/main.fc954745.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18a524e2.css",
+    "static/js/main.fc954745.js"
+  ]
+}
