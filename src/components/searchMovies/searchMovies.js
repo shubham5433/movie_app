@@ -10,6 +10,13 @@ export default function SearchMovies(){
    //useState is used to track 
     const [query,setQuery] = useState("");
     const [movies,setMovies]=useState([]);
+    const [showResults, setShowResults] = React.useState(false)
+    const onClick1 = () => setShowResults(true);
+    const onClick2 = () => {
+        setShowResults(false);
+        setQuery("");
+    }
+    
     
     const searchMovies =async(e)=>{
         e.preventDefault();
@@ -30,27 +37,31 @@ export default function SearchMovies(){
 
     return(
         <>      
-        <form onSubmit={searchMovies}>
+        <form className="form" onSubmit={searchMovies}>
         <input type="text" 
         name="query" 
         placeholder="Search here"
         value={query} 
         onChange={(e)=>setQuery(e.target.value)}
         />
-        <button type="submit" >search</button>
+        <button className="submit-search" type="submit" onClick={onClick1} ><i className="fa fa-search fa-lg"></i></button>
         </form>
          
-        <div className="movie__list">
+        { showResults ? <div className="movie__list">
             
             <h2 className="list__title">{(query).toUpperCase()}</h2>
-            <div className="list__cards">
+            <button className="close" onClick={onClick2}><i className="fa fa-times fa-2x"></i></button>
+
+            <div className="list__cards" onClick={onClick2}>
                 {
                     movies.filter(movie=>movie.poster_path).map(movie => (
-                        <Cards movie={movie} />
+                        <Cards movie={movie}  />
                     ))
                 }
             </div>
-        </div>
+            <div style={{height: "500px"}}>
+      </div>
+        </div>: null }
         
         
 

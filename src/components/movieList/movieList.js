@@ -32,6 +32,8 @@ const MovieList = () => {
                     ))
                 }
             </div>
+            <div style={{height: "500px"}}>
+      </div>
         </div>
     )
 }

@@ -47,6 +47,7 @@ const Home = () => {
                     }
                 </Carousel>
                 <MovieList />
+                
             </div>
         </>
     )

@@ -8,6 +8,7 @@
 
 .movie__intro {
     width: 80%;
+    margin-top: 10px;
 }
 
 .movie__backdrop {
@@ -147,3 +148,5 @@
     align-items: center;
     justify-content: center;
 }
+
+
