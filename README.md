@@ -1,6 +1,9 @@
 <h1>Movie Web Application</h1>
 
 <p>This movie web application, built using the MERN stack, allows users to explore information about their favorite films, including ratings, synopsis, release dates, trailers, and more. It features various movie categories such as popular, top-rated, and upcoming movies, as well as personalized features like adding movies to a watch list and a 'watch later' page. Users can also search for movies by name and access official movie websites and IMDb links.</p>
+<h2>Deployed Website</h2>
+
+<p>Check out the live version of the application <a href="https://shubham5433.github.io/movie_app/" target="_blank">here</a>.</p>
 
 <h2>Features</h2>
 
@@ -20,9 +23,7 @@
   <li><strong>Database:</strong> MongoDB</li>
 </ul>
 
-<h2>Deployed Website</h2>
 
-<p>Check out the live version of the application <a href="https://shubham5433.github.io/movie_app/" target="_blank">here</a>.</p>
 
 <h2>Screenshots</h2>
 <p>Homepage</p>
