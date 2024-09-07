@@ -22,7 +22,7 @@
 
 <h2>Deployed Website</h2>
 
-<p>Check out the live version of the application <a href="https://shubham5433.github.io/" target="_blank">here</a>.</p>
+<p>Check out the live version of the application <a href="https://shubham5433.github.io/movie_app/" target="_blank">here</a>.</p>
 
 <h2>Screenshots</h2>
 <p>Homepage</p>
